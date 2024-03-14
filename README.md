@@ -33,4 +33,7 @@ Installation:
                                                                     c:                                        // wechselt auf das virtuelle Laufwerk c
                                                                     doom                                      // startet doom
                                                                     exit                                      // Beendet DosBox, wenn Doom beendet wurd
-2.10: Trackmania Nations Forever downloaden:  
+2.10: Trackmania Nations Forever downloaden:  https://www.chip.de/downloads/TrackMania-Nations-Forever_31482232.html
+2.11: Trackmania Nations Forever installieren
+2.12: Die hier bereitsgestellte Strecke "PAES_Rundkurs.Challenge.Gbx" downloaden und in den Ordner C:\Users\[USERNAME]\Documents\TmForever\Tracks\Challenges\My Challenges kopieren
+
