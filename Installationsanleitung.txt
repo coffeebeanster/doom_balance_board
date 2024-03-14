@@ -54,4 +54,6 @@ Installation:
 --> Trackmania: Balance Board nach links / rechts drehen ^^ im Spiel nach links / rechts lenken
                 Balance Board nach vorn / hinten neigen ^^ im Spiel beschleunigen / bremsen (bzw. Rückwärtsgang)
 
+Aufruf des PAES Rundkurs: Solo-Spiel > Durchsuchen > Challenges\ > My Challenges\ > PAES\_Rundkurs > Spielen
+
 Information: Wenn das Spiel gewechselt wird, muss das Balance Board ab- und wieder angeschlossen werden. Nur so geht der Inhalt der Variablen im Programm verloren und das Balance Board landet wieder in der Spielauswahl. Ein Soft Reset reicht nicht aus.
