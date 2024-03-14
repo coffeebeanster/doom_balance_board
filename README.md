@@ -18,10 +18,11 @@ Installation:
 1.4: Die Firmware auf den Pico kopieren. Dieser startet sich anschließend neu.
 1.5: Das zuvor gedownloadete Library Bundle nach den Bibliotheken "adafruit_bno08x_rvc.mpy" und "adafruit_hid" und durchsuchen.
 1.6: Beide Bibliotheken in den "lib"-Ordner des Raspberry Pi Pico kopieren
+1.7: code.py in das Root-Verzeichnis des Raspberry Pi Pico kopieren
 
 2.: PC vorbereiten
 2.1: Mu downloaden: https://codewith.mu/
-2.2: Mu installieren
+2.2: Mu installieren und den Modus "Circuit Python" auswählen
 2.3: DosBox downloaden: https://www.dosbox.com/download.php?main=1
 2.4: DosBox installieren
 2.5: Doom downloaden: https://archive.org/details/doom_20231012
@@ -37,3 +38,20 @@ Installation:
 2.11: Trackmania Nations Forever installieren
 2.12: Die hier bereitsgestellte Strecke "PAES_Rundkurs.Challenge.Gbx" downloaden und in den Ordner C:\Users\[USERNAME]\Documents\TmForever\Tracks\Challenges\My Challenges kopieren
 
+3.: Balance Board vorbereiten
+3.1: Mu starten und mit dem Button "Seriell" das REPL öffnen
+3.2: Balance Board über USB mit dem PC verbinden
+3.3: Das Balance Board müsste jetzt eine Begrüßung über das REPL ausgeben. Falls das nicht der Fall ist, bei Mu auf "Speichern" gehen und Neustart des RaspBerry Pi Pico abwarten
+3.4: Bei der Spielabfrage im REPL die entsprechende Taste betätigen
+3.5: Balance Board ausrichten und eine beliebige Taste zur Justierung drücken
+
+4.: Spielen!
+
+--> Doom: Balance Board nach links / rechts drehen ^^ im Spiel nach links / rechts drehen
+          Balance Board nach links / rechts neigen ^^ im Spiel Strafe links / rechts
+          Balance Board nach vorn / hinten neigen ^^ im Spiel vorwärts / rückwärts laufen
+
+--> Trackmania: Balance Board nach links / rechts drehen ^^ im Spiel nach links / rechts lenken
+                Balance Board nach vorn / hinten neigen ^^ im Spiel beschleunigen / bremsen (bzw. Rückwärtsgang)
+
+Information: Wenn das Spiel gewechselt wird, muss das Balance Board ab- und wieder angeschlossen werden. Nur so geht der Inhalt der Variablen im Programm verloren und das Balance Board landet wieder in der Spielauswahl. Ein Soft Reset reicht nicht aus.
