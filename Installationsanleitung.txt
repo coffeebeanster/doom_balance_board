@@ -16,8 +16,8 @@ Installation:
 
 1.3: Raspberry Pi Pico bei gedrückter BOTSEL-Taste an den PC anschließen, sodass er in den Bootloader wechselt. Der Pico erscheint als Massenspeichermedium.
 1.4: Die Firmware auf den Pico kopieren. Dieser startet sich anschließend neu.
-1.5: Das zuvor gedownloadete Library Bundle nach den Bibliotheken "adafruit_bno08x_rvc.mpy" und "adafruit_hid" und durchsuchen.
-1.6: Beide Bibliotheken in den "lib"-Ordner des Raspberry Pi Pico kopieren
+1.5: Das zuvor gedownloadete Library Bundle nach den Bibliotheken "adafruit_bno08x_rvc.mpy", "adafruit_hid" und "adafruit_bus_device" durchsuchen.
+1.6: Diese Bibliotheken in den "lib"-Ordner des Raspberry Pi Pico kopieren
 1.7: code.py in das Root-Verzeichnis des Raspberry Pi Pico kopieren
 
 2.: PC vorbereiten
